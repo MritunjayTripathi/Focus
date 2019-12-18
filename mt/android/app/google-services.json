@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "90775437747",
+    "firebase_url": "https://focus-bbca0.firebaseio.com",
+    "project_id": "focus-bbca0",
+    "storage_bucket": "focus-bbca0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90775437747:android:63ff9f8247e111118b0bc6",
+        "android_client_info": {
+          "package_name": "com.example.mt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90775437747-md19vq9fk2fjacduie2d6rgndtte2ses.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXL0DevW7UD5DU1Sef67h8iEPlaNF37MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90775437747-md19vq9fk2fjacduie2d6rgndtte2ses.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
