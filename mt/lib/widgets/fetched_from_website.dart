@@ -117,7 +117,9 @@ class PostTile extends StatelessWidget {
       ),
     ];
 
-    final bookmarkedPost = ListTile(
+    final bookmarkedPost = child: InkWell(
+              splashColor: Colors.lightBlue[100],
+      child: ListTile(
       onTap: () {
         Navigator.of(context).pushNamed(PostDetailFromWebScreen.route,arguments: postObject);
       },
@@ -168,6 +170,7 @@ class PostTile extends StatelessWidget {
         ],
       ),
       isThreeLine: true,
+        ),
     );
 
     return bookmarkedPost;
