@@ -73,7 +73,9 @@ class SingleMyPostTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final String str= topic .substring(0,1).toUpperCase();
-    return ListTile(
+    return child: InkWell(
+              splashColor: Colors.lightBlue[100],
+      child: ListTile(
       contentPadding: EdgeInsets.all(10),
       title: Text(topic),
       leading: CircleAvatar(
@@ -114,7 +116,8 @@ class SingleMyPostTile extends StatelessWidget {
       ),
       onTap: () => selectPost(context),
    //   onLongPress: () =>(){} //sharePost(_description),
-          );
+      ),    
+      );
         }
       
         // sharePost(String description) {
