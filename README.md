@@ -11,5 +11,5 @@ Customer can : <br>sign in using username and password<br>
                Chat with admin<br>
 Admin can :<br> Accept or reject a post<br>
             Delete any previous post by any user<br>
-            Chat with customers<br>
+            Chat with users<br>
             and many more added....and many more to be added....<br>
