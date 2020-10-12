@@ -13,6 +13,8 @@ class PostTileSimple extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      child: InkWell(
+              splashColor: Colors.lightBlue[100],
       child: ListTile(
         onTap: () {
           Navigator.of(context).pushNamed(
@@ -56,6 +58,7 @@ class PostTileSimple extends StatelessWidget {
         ),
         isThreeLine: true,
       ),
+     ),
     );
   }
 }
